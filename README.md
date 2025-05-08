@@ -4,7 +4,8 @@
 - 支持一次性添加多个视频，脚本会在原视频同级目录下创建名为"video-name_parts"的文件夹，分割完成后的文件会自动命名并放入此文件夹
 - 支持中文路径和中文文件名
 ## 使用
-```wget https://raw.githubusercontent.com/asukanan/split_video/refs/heads/main/split_video.sh -O ~/.local/bin/split_video.sh
+```
+wget https://raw.githubusercontent.com/asukanan/split_video/refs/heads/main/split_video.sh -O ~/.local/bin/split_video.sh
 chmod +x ~/.local/bin/split_video.sh
 split_video.sh
 ```
